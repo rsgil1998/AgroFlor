@@ -45,6 +45,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -120,7 +126,11 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\configsController.cs" />
+    <Compile Include="Controllers\floricolasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\registroesController.cs" />
+    <Compile Include="Controllers\variedadesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -162,6 +172,26 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\configs\Create.cshtml" />
+    <Content Include="Views\configs\Delete.cshtml" />
+    <Content Include="Views\configs\Details.cshtml" />
+    <Content Include="Views\configs\Edit.cshtml" />
+    <Content Include="Views\configs\Index.cshtml" />
+    <Content Include="Views\floricolas\Create.cshtml" />
+    <Content Include="Views\floricolas\Delete.cshtml" />
+    <Content Include="Views\floricolas\Details.cshtml" />
+    <Content Include="Views\floricolas\Edit.cshtml" />
+    <Content Include="Views\floricolas\Index.cshtml" />
+    <Content Include="Views\variedades\Create.cshtml" />
+    <Content Include="Views\variedades\Delete.cshtml" />
+    <Content Include="Views\variedades\Details.cshtml" />
+    <Content Include="Views\variedades\Edit.cshtml" />
+    <Content Include="Views\variedades\Index.cshtml" />
+    <Content Include="Views\registroes\Create.cshtml" />
+    <Content Include="Views\registroes\Delete.cshtml" />
+    <Content Include="Views\registroes\Details.cshtml" />
+    <Content Include="Views\registroes\Edit.cshtml" />
+    <Content Include="Views\registroes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -179,6 +209,12 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\BLLAgroFlor\BLLAgroFlor.csproj">
+      <Project>{34e8a273-8595-4f2d-9e39-d9f5bab7058f}</Project>
+      <Name>BLLAgroFlor</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

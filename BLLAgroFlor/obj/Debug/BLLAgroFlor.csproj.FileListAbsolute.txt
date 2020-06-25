@@ -1,0 +1,11 @@
+C:\Users\santi\Desktop\Universidad\Sexto nivel\Certificacion 1\ProFinal\AgroFlor\BLLAgroFlor\bin\Debug\BLLAgroFlor.dll.config
+C:\Users\santi\Desktop\Universidad\Sexto nivel\Certificacion 1\ProFinal\AgroFlor\BLLAgroFlor\bin\Debug\BLLAgroFlor.dll
+C:\Users\santi\Desktop\Universidad\Sexto nivel\Certificacion 1\ProFinal\AgroFlor\BLLAgroFlor\bin\Debug\BLLAgroFlor.pdb
+C:\Users\santi\Desktop\Universidad\Sexto nivel\Certificacion 1\ProFinal\AgroFlor\BLLAgroFlor\bin\Debug\EntityFramework.dll
+C:\Users\santi\Desktop\Universidad\Sexto nivel\Certificacion 1\ProFinal\AgroFlor\BLLAgroFlor\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\santi\Desktop\Universidad\Sexto nivel\Certificacion 1\ProFinal\AgroFlor\BLLAgroFlor\bin\Debug\EntityFramework.xml
+C:\Users\santi\Desktop\Universidad\Sexto nivel\Certificacion 1\ProFinal\AgroFlor\BLLAgroFlor\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\santi\Desktop\Universidad\Sexto nivel\Certificacion 1\ProFinal\AgroFlor\BLLAgroFlor\obj\Debug\BLLAgroFlor.csproj.CopyComplete
+C:\Users\santi\Desktop\Universidad\Sexto nivel\Certificacion 1\ProFinal\AgroFlor\BLLAgroFlor\obj\Debug\BLLAgroFlor.dll
+C:\Users\santi\Desktop\Universidad\Sexto nivel\Certificacion 1\ProFinal\AgroFlor\BLLAgroFlor\obj\Debug\BLLAgroFlor.pdb
+C:\Users\santi\Desktop\Universidad\Sexto nivel\Certificacion 1\ProFinal\AgroFlor\BLLAgroFlor\obj\Debug\BLLAgroFlor.csprojAssemblyReference.cache

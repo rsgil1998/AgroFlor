@@ -1,0 +1,82 @@
+﻿@model BLLAgroFlor.registro
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>registro</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.bonche_med)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.bonche_med)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.precio_tall_exp)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.precio_tall_exp)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tall_nacional)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tall_nacional)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.total_tallos)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.total_tallos)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.precio_nac)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.precio_nac)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.floricola.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.floricola.nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.variedades.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.variedades.nombre)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

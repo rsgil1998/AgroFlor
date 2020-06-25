@@ -1,0 +1,75 @@
+﻿@model IEnumerable<BLLAgroFlor.registro>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.bonche_med)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.precio_tall_exp)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tall_nacional)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.total_tallos)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.precio_nac)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.floricola.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.variedades.nombre)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.bonche_med)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.precio_tall_exp)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tall_nacional)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.total_tallos)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.precio_nac)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.floricola.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.variedades.nombre)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>
